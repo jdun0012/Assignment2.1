@@ -1,0 +1,15 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "Title": "Species Conservation Staus",
+  "width": 500,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/jdun0012/Assignment2.1/main/Conservation%20Status.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {"field": "Conservation Status"},
+    "x": {"field": "Species Name"}
+  },
+  "config": {}
+}
